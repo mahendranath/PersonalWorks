@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Algorithms
 {
-    public class Class1
+    public class HelloWorld
     {
+        public string SayHi()
+        {
+            return "Hi!!!";
+        }
     }
 }
