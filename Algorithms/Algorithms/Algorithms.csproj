@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="HackerRank\InputReader.cs" />
     <Compile Include="HackerRank\ISolveHackerRankProblems.cs" />
     <Compile Include="HackerRank\Warmup\UtopianTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Algorithms.HackerRank
 {
-    interface ISolveHackerRankProblems
+    interface ISolveHackerRankProblems<T>
     {
-        string Execute(IEnumerable<string> input);
+        string Execute(IEnumerable<T> input);
     }
 }

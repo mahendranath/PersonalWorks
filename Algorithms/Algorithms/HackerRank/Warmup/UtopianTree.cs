@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Algorithms.HackerRank.Warmup
 {
-    class UtopianTree : ISolveHackerRankProblems
+    public class UtopianTree : ISolveHackerRankProblems<int>
     {
         #region Problem Statement
         /*        
@@ -42,15 +41,15 @@ In the third case (N=4 ), the tree first doubles its height (2), then grows a me
         */
         #endregion
 
-        public string Execute(IEnumerable<string> input)
+        public string Execute(IEnumerable<int> input)
         {
             var output = new StringBuilder();
             var initialHeight = 1; 
-            foreach(var s in input)
+
+            foreach(var i in input)
             {
-                var i = int.Parse(s);
                 var currentHieght = initialHeight;
-                for(int counter = 0; counter < i; counter++)
+                for(int counter = 1; counter <= i; counter++)
                 {
                     if (counter % 2 == 0)
                         currentHieght++;
