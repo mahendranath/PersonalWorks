@@ -66,6 +66,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="HackerRank\DynamicProgramming\FibonacciModifiedTest.cs" />
     <Compile Include="HackerRank\Warmup\UtopianTreeTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

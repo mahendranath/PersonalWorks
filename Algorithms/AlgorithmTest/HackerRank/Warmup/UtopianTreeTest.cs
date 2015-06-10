@@ -14,7 +14,7 @@ namespace AlgorithmTest.HackerRank.Warmup
             var expectedOutput = new StringBuilder().AppendLine("1").AppendLine("2").AppendLine("7").ToString();
             UtopianTree utopianTree = new UtopianTree();
             var actualOutput = utopianTree.Execute(input);
-            Assert.StrictEqual<string>(expectedOutput, actualOutput);
+            Assert.StrictEqual(expectedOutput, actualOutput);
         }
     }
 }
