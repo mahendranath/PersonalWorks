@@ -11,7 +11,7 @@ namespace AlgorithmTest
         {
             HelloWorld helloWorld = new HelloWorld();
             Console.WriteLine(helloWorld.SayHi());
-            Assert.True("Hi!!" == helloWorld.SayHi());
+            Assert.True("Hi!!!" == helloWorld.SayHi());
         }
     }
 }
