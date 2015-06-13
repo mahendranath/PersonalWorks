@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="HackerRank\Challenges\IndeedPrimeChallengeJun15\AsciiSpacecraftArt.cs" />
     <Compile Include="HackerRank\DynamicProgramming\FibonacciModified.cs" />
     <Compile Include="HackerRank\InputReader.cs" />
     <Compile Include="HackerRank\ISolveHackerRankProblems.cs" />
